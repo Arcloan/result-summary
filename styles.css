@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+    @font-face {
+        font-family: "HankenGrotesk";
+        src: url("/src/assets/HankenGrotesk-VariableFont_wght.ttf");
+    }
+}
+
+@theme {
+    --color-red: hsl(0, 100%, 67%);
+    --color-yellow: hsl(39, 100%, 56%);
+    --color-green: hsl(166, 100%, 37%);
+    --color-blue: hsl(234, 85%, 45%);
+    --color-gradientCircleStart: hsla(256, 72%, 46%, 1);
+    --color-gradientCircleEnd: hsla(241, 72%, 46%, 0);
+    --color-gradientBgStart: hsl(252, 100%, 67%);
+    --color-gradientBgEnd: hsl(241, 81%, 54%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-paleBlue: hsl(221, 100%, 96%);
+    --color-lavander: hsl(241, 100%, 89%);
+    --color-darkGrayBlue: hsl(224, 30%, 27%);
+
+    --font-Hanken: "HankenGrotesk", "sans-serif";
+}
