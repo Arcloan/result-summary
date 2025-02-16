@@ -16,7 +16,7 @@ export function Card({ imgUrl, title, score, color }) {
     return (
         <div className={`p-2 flex justify-between ${bgColors[color]} rounded`} >
             <div className="category flex gap-2">
-                <img src={imgUrl} alt="" />
+                <img src={import.meta.env.BASE_URL + imgUrl} alt="" />
                 <p className={textColors[color]}>{title}</p>
             </div>
             <p className="text-darkGrayBlue/40">
